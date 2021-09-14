@@ -1,0 +1,4 @@
+venv
+myvenv
+__pycache__
+credentials.yaml

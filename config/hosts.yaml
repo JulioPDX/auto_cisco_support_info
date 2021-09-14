@@ -1,0 +1,15 @@
+---
+some-router-01:
+  hostname: "192.168.10.10"
+  groups:
+    - cisco_ios
+
+some-router-02:
+  hostname: "192.168.10.11"
+  groups:
+    - cisco_ios
+
+some-other-node:
+  hostname: "192.168.10.12"
+  groups:
+    - cisco_ios

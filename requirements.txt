@@ -1,0 +1,5 @@
+nornir
+nornir-utils
+nornir-napalm
+genie
+requests

@@ -1,0 +1,6 @@
+---
+cisco_nxos:
+  platform: nxos
+
+cisco_ios:
+  platform: ios
