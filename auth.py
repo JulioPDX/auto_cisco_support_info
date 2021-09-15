@@ -20,7 +20,7 @@ if response.status_code == 200:
     with open("credentials.yaml", encoding="utf-8") as f:
         creds = yaml.load(f, Loader=yaml.SafeLoader)
 
-    creds["cisco_support_auth_token"] = response.json()["access_token"]
+    creds["support_auth_token"] = response.json()["access_token"]
 
     # Rewriting credentials.yaml with new token variable
     with open("credentials.yaml", "w", encoding="utf-8") as f:
