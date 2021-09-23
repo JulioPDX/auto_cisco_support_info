@@ -9,7 +9,7 @@ from tools import manu_year_cisco, nornir_set_creds, product_info, software_rele
 with open("./credentials.yaml", encoding="utf-8") as file:
     myvars = yaml.safe_load(file)
 
-my_token = myvars["cisco_support_auth_token"]
+my_token = myvars["support_auth_token"]
 
 with open("device_info.csv", mode="w", encoding="utf-8") as csv_file:
     fieldnames = [
